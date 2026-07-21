@@ -8,7 +8,7 @@ LABEL = Fore.YELLOW
 VALUE = Fore.GREEN
 ERROR = Fore.RED + Style.BRIGHT
 HEADER = Fore.MAGENTA + Style.BRIGHT
-def test_get_command(uid):
+def test_get_command(98376389):
     INFO_API = "https://info.killersharmabot.online/player-info?uid={uid}"
     
     print(f"{LABEL}Fetching data for UID {uid}...{reset}\n")
